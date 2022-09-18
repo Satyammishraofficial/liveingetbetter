@@ -1,0 +1,25 @@
+@media screen and (min-width: 993px)   /*(Start)for Services Menu Dropdown*/
+      {
+        .dropdown .dropdown-menu.show{
+          display: none !important;
+        }
+        .dropdown:hover .dropdown-menu{
+          display: block !important;
+        }
+        .dropdown:focus .dropdown-menu{
+          display: block !important;
+        }
+     /*(Stop)for Services Menu Dropdown*/
+     /*(Start)for Menu Color Hover*/
+
+        .navbar .navbar-nav .nav-link:hover{
+          color: orangered;         
+        }
+        /*(Start)for Menu Color Hover*/
+        
+      }
+      /**/
+      #Jumbotron{
+        height: 300px;
+        width: 100%;
+      }
